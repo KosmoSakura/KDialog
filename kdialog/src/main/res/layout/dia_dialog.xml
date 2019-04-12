@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:layout_margin="10dp"
-    android:background="@drawable/arc_full_dark"
+    android:background="@drawable/arc_full"
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
@@ -18,7 +18,7 @@
         android:layout_marginRight="14dp"
         android:gravity="center"
         android:text="我是标题"
-        android:textColor="@color/white"
+        android:textColor="#343434"
         android:textSize="18sp"/>
     <!--标题分割线-->
     <View
@@ -52,7 +52,7 @@
             android:gravity="center"
             android:minHeight="50dp"
             android:text="正文文本正文文本正文文本正文文本"
-            android:textColor="@color/white"/>
+            android:textColor="#494949"/>
         <!--输入框-->
         <EditText
             android:id="@+id/dia_edt"
@@ -60,14 +60,14 @@
             android:layout_height="40dp"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
-            android:background="@drawable/arc_rim_white"
+            android:background="@drawable/arc_rim"
             android:hint="发现新版本"
             android:paddingBottom="5dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingTop="5dp"
-            android:textColor="@color/white"
-            android:textColorHint="@color/fun_txt_gray"
+            android:textColor="#494949"
+            android:textColorHint="#9a9a9a"
             android:textSize="14sp"/>
     </LinearLayout>
 
@@ -92,7 +92,7 @@
             android:gravity="center"
             android:maxLines="1"
             android:text="Cancel"
-            android:textColor="@color/fun_txt_gray"
+            android:textColor="#9a9a9a"
             android:textSize="17sp"/>
         <!--取消和同意分割线-->
         <View
@@ -109,7 +109,7 @@
             android:gravity="center"
             android:maxLines="1"
             android:text="Confirm"
-            android:textColor="@color/white"
+            android:textColor="#343434"
             android:textSize="16sp"/>
     </LinearLayout>
 </LinearLayout>

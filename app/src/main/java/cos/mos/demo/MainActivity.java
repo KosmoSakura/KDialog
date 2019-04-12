@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.b4://消息正文+图标
                 UDialog.builder(this, "上面有个圈圈")
-                    .icon(R.drawable.lib_spinner)
+                    .icon(R.mipmap.ic_launcher_round)
                     .build();
                 break;
             case R.id.b5://消息正文+输入框
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.b6://全部显示
                 UDialog.builder(this)
                     .title("我是个标题")
-                    .icon(R.drawable.lib_spinner)
+                    .icon(R.mipmap.ic_launcher_round)
                     .msg("我是消息正文")
                     .input("输入点什么")
                     .button("按钮一", "按钮二")
