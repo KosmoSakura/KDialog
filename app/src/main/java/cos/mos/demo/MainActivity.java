@@ -1,4 +1,4 @@
-package cos.mos.kdialog;
+package cos.mos.demo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
