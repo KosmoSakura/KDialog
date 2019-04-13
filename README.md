@@ -24,7 +24,7 @@ allprojects {
 
 ```gradle
 dependencies {
-	implementation 'implementation 'com.github.KosmoSakura:KDialog:1.0.0'
+	implementation 'com.github.KosmoSakura:KDialog:1.0.0'
 }
 ```
 ### 3.栗子
