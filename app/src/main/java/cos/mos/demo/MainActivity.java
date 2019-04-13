@@ -27,12 +27,14 @@ public class MainActivity extends AppCompatActivity {
                     .build();
                 break;
             case R.id.b3://消息正文+标题
-                UDialog.builder(this, "今天放假")
+                UDialog
+                    .builder(this, "今天放假")
                     .title("通知通知")
                     .build();
                 break;
             case R.id.b4://消息正文+图标
-                UDialog.builder(this, "上面有个圈圈")
+                UDialog
+                    .builder(this, "上面有个圈圈")
                     .icon(R.mipmap.ic_launcher_round)
                     .build();
                 break;
